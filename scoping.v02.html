@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoping v02</title>
+</head>
+<body>
+    <script>
+        // a for loop has: (1) initilization, (2) a termination condition
+        // (3) an incremental statement.
+        // var = declares a variable.
+        
+        for (let i = 0; i <= 10; i = i + 1){
+            // let allowas us to use i with in this block
+            console.log("inside i:" + i);
+        }
+
+        console.log("outside i:" + i); // this line runs after the iteration (repetation)
+
+
+        for (let i = 0; i <= 10; i = i + 1){
+            // let allowas us to use i with in this block with out overwriting our data
+            console.log("inside i:" + i);
+        }
+
+        // the let synbol
+        // declares a variable that has LOCAL SCOPE
+        // local scope: means that the varibale can not be
+        //          recalled anywhere else in our code.
+        //local scope mean that the variable can be only used with in the "scope" of the code we use it im
+
+        // before 2015 (E56) 
+        // we only had var
+
+</script>
+</body>
+</html>
